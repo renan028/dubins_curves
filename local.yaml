@@ -1,0 +1,3 @@
+dubins_curves:
+  ubuntu:
+  - ros-noetic-dubins-curves
