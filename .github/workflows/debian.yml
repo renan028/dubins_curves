@@ -1,0 +1,15 @@
+name: builder
+
+on:
+  workflow_dispatch:
+  push:
+
+jobs:
+  debian_builder:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: jspricke/ros-deb-builder-action@main
+        with:
+          ROS_DISTRO: noetic
+          DEB_DISTRO: focal
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
