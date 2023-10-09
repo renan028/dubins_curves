@@ -1,44 +1,44 @@
-sbuild (Debian sbuild) 0.84.2~ubuntu2204+3 (28 December 2022) on fv-az955-5.mlkcatuscfmejm4ctfapoghrmg.cx.internal.cloudapp.net
+sbuild (Debian sbuild) 0.84.2~ubuntu2204+3 (28 December 2022) on fv-az398-577
 
 +=====================================================================================+
-| ros-noetic-dubins-curves 0-2023.10.06.15.42 (amd64) Fri, 06 Oct 2023 15:42:54 +0000 |
+| ros-noetic-dubins-curves 0-2023.10.09.23.41 (amd64) Mon, 09 Oct 2023 23:41:08 +0000 |
 +=====================================================================================+
 
 Package: ros-noetic-dubins-curves
-Version: 0-2023.10.06.15.42
-Source Version: 0-2023.10.06.15.42
+Version: 0-2023.10.09.23.41
+Source Version: 0-2023.10.09.23.41
 Distribution: focal
 Machine Architecture: amd64
 Host Architecture: amd64
 Build Architecture: amd64
 Build Type: binary
 
-Unpacking /home/runner/.cache/sbuild/focal-amd64.tar to /tmp/tmp.sbuild.lCzjKK4vbd...
+Unpacking /home/runner/.cache/sbuild/focal-amd64.tar to /tmp/tmp.sbuild.Vv0snfEOEp...
 I: NOTICE: Log filtering will replace 'sbuild-unshare-dummy-location' with '<<CHROOT>>'
-I: NOTICE: Log filtering will replace 'build/package//resolver-JcTC1A' with '<<RESOLVERDIR>>'
+I: NOTICE: Log filtering will replace 'build/package//resolver-31OBr9' with '<<RESOLVERDIR>>'
 
 +------------------------------------------------------------------------------+
 | Update chroot                                                                |
 +------------------------------------------------------------------------------+
 
-Get:1 file:/build/package//resolver-hejioz/apt_archive ./ InRelease
-Ign:1 file:/build/package//resolver-hejioz/apt_archive ./ InRelease
-Get:2 file:/build/package//resolver-hejioz/apt_archive ./ Release [568 B]
-Get:2 file:/build/package//resolver-hejioz/apt_archive ./ Release [568 B]
-Get:3 file:/build/package//resolver-hejioz/apt_archive ./ Release.gpg
-Ign:3 file:/build/package//resolver-hejioz/apt_archive ./ Release.gpg
+Get:1 file:/build/package//resolver-6AzF9y/apt_archive ./ InRelease
+Ign:1 file:/build/package//resolver-6AzF9y/apt_archive ./ InRelease
+Get:2 file:/build/package//resolver-6AzF9y/apt_archive ./ Release [568 B]
+Get:2 file:/build/package//resolver-6AzF9y/apt_archive ./ Release [568 B]
+Get:3 file:/build/package//resolver-6AzF9y/apt_archive ./ Release.gpg
+Ign:3 file:/build/package//resolver-6AzF9y/apt_archive ./ Release.gpg
 Get:4 http://archive.ubuntu.com/ubuntu focal InRelease [265 kB]
-Get:5 http://security.ubuntu.com/ubuntu focal-security InRelease [114 kB]
-Get:6 http://packages.ros.org/ros/ubuntu focal InRelease [4679 B]
+Get:5 http://packages.ros.org/ros/ubuntu focal InRelease [4679 B]
+Get:6 http://security.ubuntu.com/ubuntu focal-security InRelease [114 kB]
 Get:7 http://packages.ros.org/ros/ubuntu focal/main amd64 Packages [793 kB]
-Get:8 http://security.ubuntu.com/ubuntu focal-security/universe amd64 Packages [890 kB]
-Get:9 http://archive.ubuntu.com/ubuntu focal-updates InRelease [114 kB]
-Get:10 http://archive.ubuntu.com/ubuntu focal/main amd64 Packages [970 kB]
-Get:11 http://archive.ubuntu.com/ubuntu focal/universe amd64 Packages [8628 kB]
-Get:12 http://security.ubuntu.com/ubuntu focal-security/main amd64 Packages [2500 kB]
-Get:13 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 Packages [1121 kB]
-Get:14 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages [2888 kB]
-Fetched 18.3 MB in 3s (5368 kB/s)
+Get:8 http://archive.ubuntu.com/ubuntu focal-updates InRelease [114 kB]
+Get:9 http://archive.ubuntu.com/ubuntu focal/main amd64 Packages [970 kB]
+Get:10 http://archive.ubuntu.com/ubuntu focal/universe amd64 Packages [8628 kB]
+Get:11 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 Packages [1123 kB]
+Get:12 http://security.ubuntu.com/ubuntu focal-security/universe amd64 Packages [891 kB]
+Get:13 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages [2888 kB]
+Get:14 http://security.ubuntu.com/ubuntu focal-security/main amd64 Packages [2500 kB]
+Fetched 18.3 MB in 3s (6002 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -54,7 +54,7 @@ Calculating upgrade...
 Local sources
 -------------
 
-/home/runner/work/dubins_curves/ros-noetic-dubins-curves_0-2023.10.06.15.42.dsc exists in /home/runner/work/dubins_curves; copying to chroot
+/home/runner/work/dubins_curves/ros-noetic-dubins-curves_0-2023.10.09.23.41.dsc exists in /home/runner/work/dubins_curves; copying to chroot
 I: NOTICE: Log filtering will replace 'build/package//package' with '<<PKGBUILDDIR>>'
 I: NOTICE: Log filtering will replace 'build/package/' with '<<BUILDDIR>>'
 
@@ -76,12 +76,12 @@ Get:4 copy:/<<RESOLVERDIR>>/apt_archive ./ Sources [652 B]
 Get:5 copy:/<<RESOLVERDIR>>/apt_archive ./ Packages [684 B]
 Fetched 1916 B in 0s (0 B/s)
 Reading package lists...
-Get:1 file:/<<BUILDDIR>>/resolver-hejioz/apt_archive ./ InRelease
-Ign:1 file:/<<BUILDDIR>>/resolver-hejioz/apt_archive ./ InRelease
-Get:2 file:/<<BUILDDIR>>/resolver-hejioz/apt_archive ./ Release [568 B]
-Get:2 file:/<<BUILDDIR>>/resolver-hejioz/apt_archive ./ Release [568 B]
-Get:3 file:/<<BUILDDIR>>/resolver-hejioz/apt_archive ./ Release.gpg
-Ign:3 file:/<<BUILDDIR>>/resolver-hejioz/apt_archive ./ Release.gpg
+Get:1 file:/<<BUILDDIR>>/resolver-6AzF9y/apt_archive ./ InRelease
+Ign:1 file:/<<BUILDDIR>>/resolver-6AzF9y/apt_archive ./ InRelease
+Get:2 file:/<<BUILDDIR>>/resolver-6AzF9y/apt_archive ./ Release [568 B]
+Get:2 file:/<<BUILDDIR>>/resolver-6AzF9y/apt_archive ./ Release [568 B]
+Get:3 file:/<<BUILDDIR>>/resolver-6AzF9y/apt_archive ./ Release.gpg
+Ign:3 file:/<<BUILDDIR>>/resolver-6AzF9y/apt_archive ./ Release.gpg
 Reading package lists...
 Hit:1 http://packages.ros.org/ros/ubuntu focal InRelease
 Reading package lists...
@@ -197,11 +197,11 @@ The following NEW packages will be installed:
 0 upgraded, 159 newly installed, 0 to remove and 0 not upgraded.
 Need to get 62.9 MB of archives.
 After this operation, 421 MB of additional disk space will be used.
-Get:1 copy:/<<RESOLVERDIR>>/apt_archive ./ sbuild-build-depends-main-dummy 0.invalid.0 [896 B]
+Get:1 copy:/<<RESOLVERDIR>>/apt_archive ./ sbuild-build-depends-main-dummy 0.invalid.0 [892 B]
 Get:2 http://packages.ros.org/ros/ubuntu focal/main amd64 python3-catkin-pkg-modules all 1.0.0-1 [43.2 kB]
-Get:3 http://packages.ros.org/ros/ubuntu focal/main amd64 python3-catkin-pkg all 1.0.0-100 [3920 B]
-Get:4 http://packages.ros.org/ros/ubuntu focal/main amd64 ros-noetic-catkin amd64 0.8.10-1focal.20210423.221558 [129 kB]
-Get:5 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libpython3.8-minimal amd64 3.8.10-0ubuntu1~20.04.8 [717 kB]
+Get:3 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libpython3.8-minimal amd64 3.8.10-0ubuntu1~20.04.8 [717 kB]
+Get:4 http://packages.ros.org/ros/ubuntu focal/main amd64 python3-catkin-pkg all 1.0.0-100 [3920 B]
+Get:5 http://packages.ros.org/ros/ubuntu focal/main amd64 ros-noetic-catkin amd64 0.8.10-1focal.20210423.221558 [129 kB]
 Get:6 http://packages.ros.org/ros/ubuntu focal/main amd64 ros-noetic-cpp-common amd64 0.7.3-1focal.20230620.180948 [23.3 kB]
 Get:7 http://packages.ros.org/ros/ubuntu focal/main amd64 ros-noetic-genmsg amd64 0.6.0-1focal.20220926.175715 [36.4 kB]
 Get:8 http://packages.ros.org/ros/ubuntu focal/main amd64 ros-noetic-gencpp amd64 0.7.0-1focal.20220926.180119 [15.5 kB]
@@ -213,15 +213,15 @@ Get:13 http://packages.ros.org/ros/ubuntu focal/main amd64 ros-noetic-message-ge
 Get:14 http://packages.ros.org/ros/ubuntu focal/main amd64 ros-noetic-rostime amd64 0.7.3-1focal.20230620.181441 [48.3 kB]
 Get:15 http://packages.ros.org/ros/ubuntu focal/main amd64 ros-noetic-roscpp-traits amd64 0.7.3-1focal.20230620.181518 [10.6 kB]
 Get:16 http://packages.ros.org/ros/ubuntu focal/main amd64 ros-noetic-roscpp-serialization amd64 0.7.3-1focal.20230620.181650 [13.7 kB]
-Get:17 http://packages.ros.org/ros/ubuntu focal/main amd64 ros-noetic-message-runtime amd64 0.4.13-1focal.20230620.181946 [4792 B]
-Get:18 http://packages.ros.org/ros/ubuntu focal/main amd64 ros-noetic-rosbuild amd64 1.15.8-1focal.20230620.182139 [28.2 kB]
-Get:19 http://packages.ros.org/ros/ubuntu focal/main amd64 ros-noetic-rosconsole amd64 1.14.3-1focal.20230620.183055 [124 kB]
-Get:20 http://packages.ros.org/ros/ubuntu focal/main amd64 ros-noetic-std-msgs amd64 0.5.13-1focal.20230620.182217 [56.6 kB]
-Get:21 http://packages.ros.org/ros/ubuntu focal/main amd64 ros-noetic-rosgraph-msgs amd64 1.11.3-1focal.20230620.182955 [25.7 kB]
-Get:22 http://packages.ros.org/ros/ubuntu focal/main amd64 ros-noetic-xmlrpcpp amd64 1.16.0-1focal.20230620.181514 [62.0 kB]
-Get:23 http://packages.ros.org/ros/ubuntu focal/main amd64 ros-noetic-roscpp amd64 1.16.0-1focal.20230620.183307 [509 kB]
-Get:24 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libexpat1 amd64 2.2.9-1ubuntu0.6 [74.6 kB]
-Get:25 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 python3.8-minimal amd64 3.8.10-0ubuntu1~20.04.8 [1902 kB]
+Get:17 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libexpat1 amd64 2.2.9-1ubuntu0.6 [74.6 kB]
+Get:18 http://packages.ros.org/ros/ubuntu focal/main amd64 ros-noetic-message-runtime amd64 0.4.13-1focal.20230620.181946 [4792 B]
+Get:19 http://packages.ros.org/ros/ubuntu focal/main amd64 ros-noetic-rosbuild amd64 1.15.8-1focal.20230620.182139 [28.2 kB]
+Get:20 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 python3.8-minimal amd64 3.8.10-0ubuntu1~20.04.8 [1902 kB]
+Get:21 http://packages.ros.org/ros/ubuntu focal/main amd64 ros-noetic-rosconsole amd64 1.14.3-1focal.20230620.183055 [124 kB]
+Get:22 http://packages.ros.org/ros/ubuntu focal/main amd64 ros-noetic-std-msgs amd64 0.5.13-1focal.20230620.182217 [56.6 kB]
+Get:23 http://packages.ros.org/ros/ubuntu focal/main amd64 ros-noetic-rosgraph-msgs amd64 1.11.3-1focal.20230620.182955 [25.7 kB]
+Get:24 http://packages.ros.org/ros/ubuntu focal/main amd64 ros-noetic-xmlrpcpp amd64 1.16.0-1focal.20230620.181514 [62.0 kB]
+Get:25 http://packages.ros.org/ros/ubuntu focal/main amd64 ros-noetic-roscpp amd64 1.16.0-1focal.20230620.183307 [509 kB]
 Get:26 http://archive.ubuntu.com/ubuntu focal/main amd64 python3-minimal amd64 3.8.2-0ubuntu2 [23.6 kB]
 Get:27 http://archive.ubuntu.com/ubuntu focal/main amd64 mime-support all 3.64ubuntu1 [30.6 kB]
 Get:28 http://archive.ubuntu.com/ubuntu focal/main amd64 libmpdec2 amd64 2.4.2-3 [81.1 kB]
@@ -357,7 +357,7 @@ Get:157 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 python3-setupt
 Get:158 http://archive.ubuntu.com/ubuntu focal/universe amd64 libconsole-bridge-dev amd64 0.4.4+dfsg-1build1 [6652 B]
 Get:159 http://archive.ubuntu.com/ubuntu focal/universe amd64 liblog4cxx-dev amd64 0.10.0-15ubuntu2 [686 kB]
 debconf: delaying package configuration, since apt-utils is not installed
-Fetched 62.9 MB in 12s (5078 kB/s)
+Fetched 62.9 MB in 2s (25.3 MB/s)
 Selecting previously unselected package libpython3.8-minimal:amd64.
 (Reading database ... 9869 files and directories currently installed.)
 Preparing to unpack .../libpython3.8-minimal_3.8.10-0ubuntu1~20.04.8_amd64.deb ...
@@ -871,8 +871,8 @@ Setting up libsasl2-modules-db:amd64 (2.1.27+dfsg-2ubuntu0.1) ...
 Setting up tzdata (2023c-0ubuntu0.20.04.2) ...
 
 Current default time zone: 'Etc/UTC'
-Local time is now:      Fri Oct  6 15:43:36 UTC 2023.
-Universal Time is now:  Fri Oct  6 15:43:36 UTC 2023.
+Local time is now:      Mon Oct  9 23:41:41 UTC 2023.
+Universal Time is now:  Mon Oct  9 23:41:41 UTC 2023.
 Run 'dpkg-reconfigure tzdata' if you wish to change it.
 
 Setting up fakeroot (1.24-1) ...
@@ -1052,22 +1052,22 @@ Format: 1.0
 Source: ros-noetic-dubins-curves
 Binary: ros-noetic-dubins-curves
 Architecture: any
-Version: 0-2023.10.06.15.42
+Version: 0-2023.10.09.23.41
 Maintainer: Renan <renan028@gmail.com>
 Standards-Version: 3.9.2
 Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin, ros-noetic-roscpp
 Package-List:
  ros-noetic-dubins-curves deb misc optional arch=any
 Checksums-Sha1:
- f61646e7baf5b84dee741c8e8689c5d8c1fd816e 784093 ros-noetic-dubins-curves_0-2023.10.06.15.42.tar.gz
+ fe224e818421075574c7032e97450e6e12025ac0 783968 ros-noetic-dubins-curves_0-2023.10.09.23.41.tar.gz
 Checksums-Sha256:
- 9524feb5f725fed1d070acb6fab528b1c3002ac2d84313aff59bea54ad773b3d 784093 ros-noetic-dubins-curves_0-2023.10.06.15.42.tar.gz
+ 7c908f23befccae02197e0a99ea566842418539649348e229b04b47024af7e41 783968 ros-noetic-dubins-curves_0-2023.10.09.23.41.tar.gz
 Files:
- 6e9d35e62fe961f9cf05444312b41695 784093 ros-noetic-dubins-curves_0-2023.10.06.15.42.tar.gz
+ 43100edae060820e5096b289f6116b36 783968 ros-noetic-dubins-curves_0-2023.10.09.23.41.tar.gz
 
-dpkg-source: warning: extracting unsigned source package (ros-noetic-dubins-curves_0-2023.10.06.15.42.dsc)
+dpkg-source: warning: extracting unsigned source package (ros-noetic-dubins-curves_0-2023.10.09.23.41.dsc)
 dpkg-source: info: extracting ros-noetic-dubins-curves in /<<BUILDDIR>>package
-dpkg-source: info: unpacking ros-noetic-dubins-curves_0-2023.10.06.15.42.tar.gz
+dpkg-source: info: unpacking ros-noetic-dubins-curves_0-2023.10.09.23.41.tar.gz
 
 Check disk space
 ----------------
@@ -1095,7 +1095,7 @@ dpkg-buildpackage
 
 Command: dpkg-buildpackage -us -uc -b -rfakeroot
 dpkg-buildpackage: info: source package ros-noetic-dubins-curves
-dpkg-buildpackage: info: source version 0-2023.10.06.15.42
+dpkg-buildpackage: info: source version 0-2023.10.09.23.41
 dpkg-buildpackage: info: source distribution focal
 dpkg-buildpackage: info: source changed by Renan <renan028@gmail.com>
  dpkg-source --before-build .
@@ -1332,20 +1332,20 @@ make[1]: Leaving directory '/<<BUILDDIR>>package'
 	chown 0:0 -- debian/.debhelper/ros-noetic-dubins-curves/dbgsym-root/DEBIAN/md5sums
    dh_builddeb -O-v -O--buildsystem=cmake
 	dpkg-deb --build debian/ros-noetic-dubins-curves ..
-dpkg-deb: building package 'ros-noetic-dubins-curves' in '../ros-noetic-dubins-curves_0-2023.10.06.15.42_amd64.deb'.
+dpkg-deb: building package 'ros-noetic-dubins-curves' in '../ros-noetic-dubins-curves_0-2023.10.09.23.41_amd64.deb'.
 	install -d debian/.debhelper/scratch-space/build-ros-noetic-dubins-curves
 	dpkg-deb --build debian/.debhelper/ros-noetic-dubins-curves/dbgsym-root debian/.debhelper/scratch-space/build-ros-noetic-dubins-curves
-dpkg-deb: building package 'ros-noetic-dubins-curves-dbgsym' in 'debian/.debhelper/scratch-space/build-ros-noetic-dubins-curves/ros-noetic-dubins-curves-dbgsym_0-2023.10.06.15.42_amd64.deb'.
-	Renaming ros-noetic-dubins-curves-dbgsym_0-2023.10.06.15.42_amd64.deb to ros-noetic-dubins-curves-dbgsym_0-2023.10.06.15.42_amd64.ddeb
-	mv debian/.debhelper/scratch-space/build-ros-noetic-dubins-curves/ros-noetic-dubins-curves-dbgsym_0-2023.10.06.15.42_amd64.deb ../ros-noetic-dubins-curves-dbgsym_0-2023.10.06.15.42_amd64.ddeb
+dpkg-deb: building package 'ros-noetic-dubins-curves-dbgsym' in 'debian/.debhelper/scratch-space/build-ros-noetic-dubins-curves/ros-noetic-dubins-curves-dbgsym_0-2023.10.09.23.41_amd64.deb'.
+	Renaming ros-noetic-dubins-curves-dbgsym_0-2023.10.09.23.41_amd64.deb to ros-noetic-dubins-curves-dbgsym_0-2023.10.09.23.41_amd64.ddeb
+	mv debian/.debhelper/scratch-space/build-ros-noetic-dubins-curves/ros-noetic-dubins-curves-dbgsym_0-2023.10.09.23.41_amd64.deb ../ros-noetic-dubins-curves-dbgsym_0-2023.10.09.23.41_amd64.ddeb
  dpkg-genbuildinfo --build=binary
- dpkg-genchanges --build=binary >../ros-noetic-dubins-curves_0-2023.10.06.15.42_amd64.changes
+ dpkg-genchanges --build=binary >../ros-noetic-dubins-curves_0-2023.10.09.23.41_amd64.changes
 dpkg-genchanges: info: binary-only upload (no source code included)
  dpkg-source --after-build .
 dpkg-source: info: using options from package/debian/source/options: --auto-commit
 dpkg-buildpackage: info: binary-only upload (no source included)
 --------------------------------------------------------------------------------
-Build finished at 2023-10-06T15:43:46Z
+Build finished at 2023-10-09T23:41:54Z
 
 Finished
 --------
@@ -1357,15 +1357,15 @@ I: Built successfully
 +------------------------------------------------------------------------------+
 
 
-ros-noetic-dubins-curves_0-2023.10.06.15.42_amd64.changes:
+ros-noetic-dubins-curves_0-2023.10.09.23.41_amd64.changes:
 ----------------------------------------------------------
 
 Format: 1.8
-Date: Fri, 06 Oct 2023 15:42:53 -0000
+Date: Mon, 09 Oct 2023 23:41:07 -0000
 Source: ros-noetic-dubins-curves
 Binary: ros-noetic-dubins-curves
 Architecture: amd64
-Version: 0-2023.10.06.15.42
+Version: 0-2023.10.09.23.41
 Distribution: focal
 Urgency: high
 Maintainer: Renan <renan028@gmail.com>
@@ -1373,21 +1373,21 @@ Changed-By: Renan <renan028@gmail.com>
 Description:
  ros-noetic-dubins-curves - Package to create dubins curves
 Changes:
- ros-noetic-dubins-curves (0-2023.10.06.15.42) focal; urgency=high
+ ros-noetic-dubins-curves (0-2023.10.09.23.41) focal; urgency=high
  .
    * Autogenerated, no changelog for this version found in CHANGELOG.rst.
 Checksums-Sha1:
- 940627230b8cada10d6add1b6d323d1d2afc1ef6 25384 ros-noetic-dubins-curves-dbgsym_0-2023.10.06.15.42_amd64.ddeb
- 3519df0afc3099c4ec91f4451b38a21b9835c1b0 11126 ros-noetic-dubins-curves_0-2023.10.06.15.42_amd64.buildinfo
- de49b250e3d7e1277fb6faf21852cbb9dbe7dda0 11000 ros-noetic-dubins-curves_0-2023.10.06.15.42_amd64.deb
+ 67d5b48a5bff47cf222d7811ae9ecbec70b01367 25384 ros-noetic-dubins-curves-dbgsym_0-2023.10.09.23.41_amd64.ddeb
+ c1e00f5cf787473c8ee19e6aa3da4fd5aca1d454 11126 ros-noetic-dubins-curves_0-2023.10.09.23.41_amd64.buildinfo
+ 4e0eb5858a749ad13e89df245d2eb53409759e06 11000 ros-noetic-dubins-curves_0-2023.10.09.23.41_amd64.deb
 Checksums-Sha256:
- 102cd8b8f7f76b2a3f680a6609d78c3e3a51b7b3377ced61a4aa66671c2a6e5a 25384 ros-noetic-dubins-curves-dbgsym_0-2023.10.06.15.42_amd64.ddeb
- 19472bc1cbe8ae5a7b25ab4e22732f98d3d52d9d384b2e2faba619ecea7e398d 11126 ros-noetic-dubins-curves_0-2023.10.06.15.42_amd64.buildinfo
- dcee3109357976940e6f3cfcf997d1a4680e6aee0a2d5f2de1257a8ac3ad0fbb 11000 ros-noetic-dubins-curves_0-2023.10.06.15.42_amd64.deb
+ f6b22a3f06820b08ed15c19e7f2e6e7dae76645d5f9683a92d55c57e36fe6183 25384 ros-noetic-dubins-curves-dbgsym_0-2023.10.09.23.41_amd64.ddeb
+ db9fdfd4c03b146262529632e5d774fb02428a8ea2df3c4fa630eaf34a3c9288 11126 ros-noetic-dubins-curves_0-2023.10.09.23.41_amd64.buildinfo
+ 0a17901821b904df19c822ec32b3159f53c37245e025e85e62bf1b68cfda8b02 11000 ros-noetic-dubins-curves_0-2023.10.09.23.41_amd64.deb
 Files:
- 89c581ee94501abefbb051b67d02d066 25384 debug optional ros-noetic-dubins-curves-dbgsym_0-2023.10.06.15.42_amd64.ddeb
- d396cf3657dc6c262e32d5c45e38ed02 11126 misc optional ros-noetic-dubins-curves_0-2023.10.06.15.42_amd64.buildinfo
- 50e6daefc9104d6b0effde396c5ac8d3 11000 misc optional ros-noetic-dubins-curves_0-2023.10.06.15.42_amd64.deb
+ 507c1ab30867e1b189ef996c5e32c9f0 25384 debug optional ros-noetic-dubins-curves-dbgsym_0-2023.10.09.23.41_amd64.ddeb
+ dbaee9b662685a042e413c7cc98a8b99 11126 misc optional ros-noetic-dubins-curves_0-2023.10.09.23.41_amd64.buildinfo
+ c1d9bbae4b0e9188ad53098c12393a67 11000 misc optional ros-noetic-dubins-curves_0-2023.10.09.23.41_amd64.deb
 
 +------------------------------------------------------------------------------+
 | Buildinfo                                                                    |
@@ -1397,19 +1397,19 @@ Format: 1.0
 Source: ros-noetic-dubins-curves
 Binary: ros-noetic-dubins-curves
 Architecture: amd64
-Version: 0-2023.10.06.15.42
+Version: 0-2023.10.09.23.41
 Checksums-Md5:
- 89c581ee94501abefbb051b67d02d066 25384 ros-noetic-dubins-curves-dbgsym_0-2023.10.06.15.42_amd64.ddeb
- 50e6daefc9104d6b0effde396c5ac8d3 11000 ros-noetic-dubins-curves_0-2023.10.06.15.42_amd64.deb
+ 507c1ab30867e1b189ef996c5e32c9f0 25384 ros-noetic-dubins-curves-dbgsym_0-2023.10.09.23.41_amd64.ddeb
+ c1d9bbae4b0e9188ad53098c12393a67 11000 ros-noetic-dubins-curves_0-2023.10.09.23.41_amd64.deb
 Checksums-Sha1:
- 940627230b8cada10d6add1b6d323d1d2afc1ef6 25384 ros-noetic-dubins-curves-dbgsym_0-2023.10.06.15.42_amd64.ddeb
- de49b250e3d7e1277fb6faf21852cbb9dbe7dda0 11000 ros-noetic-dubins-curves_0-2023.10.06.15.42_amd64.deb
+ 67d5b48a5bff47cf222d7811ae9ecbec70b01367 25384 ros-noetic-dubins-curves-dbgsym_0-2023.10.09.23.41_amd64.ddeb
+ 4e0eb5858a749ad13e89df245d2eb53409759e06 11000 ros-noetic-dubins-curves_0-2023.10.09.23.41_amd64.deb
 Checksums-Sha256:
- 102cd8b8f7f76b2a3f680a6609d78c3e3a51b7b3377ced61a4aa66671c2a6e5a 25384 ros-noetic-dubins-curves-dbgsym_0-2023.10.06.15.42_amd64.ddeb
- dcee3109357976940e6f3cfcf997d1a4680e6aee0a2d5f2de1257a8ac3ad0fbb 11000 ros-noetic-dubins-curves_0-2023.10.06.15.42_amd64.deb
+ f6b22a3f06820b08ed15c19e7f2e6e7dae76645d5f9683a92d55c57e36fe6183 25384 ros-noetic-dubins-curves-dbgsym_0-2023.10.09.23.41_amd64.ddeb
+ 0a17901821b904df19c822ec32b3159f53c37245e025e85e62bf1b68cfda8b02 11000 ros-noetic-dubins-curves_0-2023.10.09.23.41_amd64.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Fri, 06 Oct 2023 15:43:46 +0000
+Build-Date: Mon, 09 Oct 2023 23:41:54 +0000
 Build-Path: /<<BUILDDIR>>package
 Installed-Build-Depends:
  autoconf (= 2.69-11.1),
@@ -1691,7 +1691,7 @@ Environment:
  DEB_BUILD_OPTIONS="nocheck parallel=2"
  LANG="C.UTF-8"
  LC_ALL="C.UTF-8"
- SOURCE_DATE_EPOCH="1696606973"
+ SOURCE_DATE_EPOCH="1696894867"
 
 
 +------------------------------------------------------------------------------+
@@ -1699,15 +1699,15 @@ Environment:
 +------------------------------------------------------------------------------+
 
 
-ros-noetic-dubins-curves_0-2023.10.06.15.42_amd64.deb
+ros-noetic-dubins-curves_0-2023.10.09.23.41_amd64.deb
 -----------------------------------------------------
 
  new Debian package, version 2.0.
- size 11000 bytes: control archive=700 bytes.
+ size 11000 bytes: control archive=704 bytes.
      261 bytes,     9 lines      control              
      617 bytes,     7 lines      md5sums              
  Package: ros-noetic-dubins-curves
- Version: 0-2023.10.06.15.42
+ Version: 0-2023.10.09.23.41
  Architecture: amd64
  Maintainer: Renan <renan028@gmail.com>
  Installed-Size: 54
@@ -1716,28 +1716,28 @@ ros-noetic-dubins-curves_0-2023.10.06.15.42_amd64.deb
  Priority: optional
  Description: Package to create dubins curves
 
-drwxr-xr-x root/root         0 2023-10-06 15:42 ./
-drwxr-xr-x root/root         0 2023-10-06 15:42 ./opt/
-drwxr-xr-x root/root         0 2023-10-06 15:42 ./opt/ros/
-drwxr-xr-x root/root         0 2023-10-06 15:42 ./opt/ros/noetic/
-drwxr-xr-x root/root         0 2023-10-06 15:42 ./opt/ros/noetic/include/
-drwxr-xr-x root/root         0 2023-10-06 15:42 ./opt/ros/noetic/include/dubins_curves/
--rw-r--r-- root/root      6036 2023-10-06 15:41 ./opt/ros/noetic/include/dubins_curves/dubins.h
-drwxr-xr-x root/root         0 2023-10-06 15:42 ./opt/ros/noetic/lib/
--rw-r--r-- root/root     18688 2023-10-06 15:42 ./opt/ros/noetic/lib/libdubins_curves.so
-drwxr-xr-x root/root         0 2023-10-06 15:42 ./opt/ros/noetic/lib/pkgconfig/
--rw-r--r-- root/root       178 2023-10-06 15:42 ./opt/ros/noetic/lib/pkgconfig/dubins_curves.pc
-drwxr-xr-x root/root         0 2023-10-06 15:42 ./opt/ros/noetic/share/
-drwxr-xr-x root/root         0 2023-10-06 15:42 ./opt/ros/noetic/share/dubins_curves/
-drwxr-xr-x root/root         0 2023-10-06 15:42 ./opt/ros/noetic/share/dubins_curves/cmake/
--rw-r--r-- root/root       426 2023-10-06 15:42 ./opt/ros/noetic/share/dubins_curves/cmake/dubins_curvesConfig-version.cmake
--rw-r--r-- root/root      9057 2023-10-06 15:42 ./opt/ros/noetic/share/dubins_curves/cmake/dubins_curvesConfig.cmake
--rw-r--r-- root/root       325 2023-10-06 15:41 ./opt/ros/noetic/share/dubins_curves/package.xml
-drwxr-xr-x root/root         0 2023-10-06 15:42 ./usr/
-drwxr-xr-x root/root         0 2023-10-06 15:42 ./usr/share/
-drwxr-xr-x root/root         0 2023-10-06 15:42 ./usr/share/doc/
-drwxr-xr-x root/root         0 2023-10-06 15:42 ./usr/share/doc/ros-noetic-dubins-curves/
--rw-r--r-- root/root       195 2023-10-06 15:42 ./usr/share/doc/ros-noetic-dubins-curves/changelog.Debian.gz
+drwxr-xr-x root/root         0 2023-10-09 23:41 ./
+drwxr-xr-x root/root         0 2023-10-09 23:41 ./opt/
+drwxr-xr-x root/root         0 2023-10-09 23:41 ./opt/ros/
+drwxr-xr-x root/root         0 2023-10-09 23:41 ./opt/ros/noetic/
+drwxr-xr-x root/root         0 2023-10-09 23:41 ./opt/ros/noetic/include/
+drwxr-xr-x root/root         0 2023-10-09 23:41 ./opt/ros/noetic/include/dubins_curves/
+-rw-r--r-- root/root      6036 2023-10-09 23:39 ./opt/ros/noetic/include/dubins_curves/dubins.h
+drwxr-xr-x root/root         0 2023-10-09 23:41 ./opt/ros/noetic/lib/
+-rw-r--r-- root/root     18688 2023-10-09 23:41 ./opt/ros/noetic/lib/libdubins_curves.so
+drwxr-xr-x root/root         0 2023-10-09 23:41 ./opt/ros/noetic/lib/pkgconfig/
+-rw-r--r-- root/root       178 2023-10-09 23:41 ./opt/ros/noetic/lib/pkgconfig/dubins_curves.pc
+drwxr-xr-x root/root         0 2023-10-09 23:41 ./opt/ros/noetic/share/
+drwxr-xr-x root/root         0 2023-10-09 23:41 ./opt/ros/noetic/share/dubins_curves/
+drwxr-xr-x root/root         0 2023-10-09 23:41 ./opt/ros/noetic/share/dubins_curves/cmake/
+-rw-r--r-- root/root       426 2023-10-09 23:41 ./opt/ros/noetic/share/dubins_curves/cmake/dubins_curvesConfig-version.cmake
+-rw-r--r-- root/root      9057 2023-10-09 23:41 ./opt/ros/noetic/share/dubins_curves/cmake/dubins_curvesConfig.cmake
+-rw-r--r-- root/root       325 2023-10-09 23:39 ./opt/ros/noetic/share/dubins_curves/package.xml
+drwxr-xr-x root/root         0 2023-10-09 23:41 ./usr/
+drwxr-xr-x root/root         0 2023-10-09 23:41 ./usr/share/
+drwxr-xr-x root/root         0 2023-10-09 23:41 ./usr/share/doc/
+drwxr-xr-x root/root         0 2023-10-09 23:41 ./usr/share/doc/ros-noetic-dubins-curves/
+-rw-r--r-- root/root       194 2023-10-09 23:41 ./usr/share/doc/ros-noetic-dubins-curves/changelog.Debian.gz
 
 
 +------------------------------------------------------------------------------+
@@ -1759,18 +1759,18 @@ Not cleaning session: cloned chroot in use
 Build Architecture: amd64
 Build Type: binary
 Build-Space: 4360
-Build-Time: 5
+Build-Time: 6
 Distribution: focal
 Host Architecture: amd64
-Install-Time: 36
-Job: /home/runner/work/dubins_curves/ros-noetic-dubins-curves_0-2023.10.06.15.42.dsc
+Install-Time: 27
+Job: /home/runner/work/dubins_curves/ros-noetic-dubins-curves_0-2023.10.09.23.41.dsc
 Machine Architecture: amd64
 Package: ros-noetic-dubins-curves
-Package-Time: 52
-Source-Version: 0-2023.10.06.15.42
+Package-Time: 46
+Source-Version: 0-2023.10.09.23.41
 Space: 4360
 Status: successful
-Version: 0-2023.10.06.15.42
+Version: 0-2023.10.09.23.41
 --------------------------------------------------------------------------------
-Finished at 2023-10-06T15:43:46Z
-Build needed 00:00:52, 4360k disk space
+Finished at 2023-10-09T23:41:54Z
+Build needed 00:00:46, 4360k disk space
